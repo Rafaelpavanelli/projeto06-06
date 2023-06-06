@@ -1,0 +1,39 @@
+.Menu {
+  background-color: azure;
+  height: 100vh;
+  overflow: hidden;
+}
+.Menu .addItems {
+  border-bottom: 1px solid black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10vw;
+}
+.Menu .addItems label {
+  width: 10vw;
+}
+.Menu .addItems button {
+  background-color: rgb(142, 248, 121);
+  border: 0.5px solid gray;
+  padding: 5px;
+}
+.Menu .items {
+  display: flex;
+  flex-direction: column;
+}
+.Menu .items p {
+  padding: 10px 10vw;
+  margin-bottom: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  height: 10vh;
+}
+.Menu .items p button {
+  background-color: red;
+  border: 0.5px solid gray;
+  color: white;
+}/*# sourceMappingURL=Menu.modules.css.map */

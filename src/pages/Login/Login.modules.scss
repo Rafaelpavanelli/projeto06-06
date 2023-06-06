@@ -1,0 +1,44 @@
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: azure;
+  .forms{
+    border: 1px solid black;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    input{
+      width: 30vw;
+      height: 4vh;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      margin-top: 2vh;
+      
+    }
+    button{
+      margin-top: 5vh;
+      border: none;
+      width: 10vw;
+      height: 5vh;
+      background-color: rgb(97, 192, 97);
+      color: white;
+      &:hover{
+        transition: 0.4s color ease-in-out;
+        color:black
+      }
+    }
+  }
+
+}

@@ -1,0 +1,43 @@
+.Cadastrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: azure;
+}
+.Cadastrar .form {
+  border: 1px solid black;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.Cadastrar .form input {
+  width: 30vw;
+  height: 4vh;
+}
+.Cadastrar .form a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top: 2vh;
+  background-color: transparent;
+}
+.Cadastrar .form button {
+  margin-top: 5vh;
+  border: none;
+  width: 10vw;
+  height: 5vh;
+  background-color: rgb(97, 192, 97);
+  color: white;
+}
+.Cadastrar .form button:hover {
+  transition: 0.4s color ease-in-out;
+  color: black;
+}/*# sourceMappingURL=Cadastrar.modules.css.map */

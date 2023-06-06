@@ -1,0 +1,41 @@
+.Menu{
+  background-color: azure;
+  height: 100vh;
+  overflow: hidden;
+  .addItems{
+    border-bottom: 1px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10vw;
+    label{
+      width: 10vw;
+    }
+    button{
+      background-color: rgb(142, 248, 121);
+      border: 0.5px solid gray;
+      padding: 5px;
+    }
+  }
+  .items{
+    display: flex;
+    flex-direction: column;
+    p{
+      padding: 10px 10vw;
+      margin-bottom:5vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+      height: 10vh;
+  
+      button{
+        background-color: red;
+        border: 0.5px solid gray;
+        color: white
+      }
+      ;
+    }
+  }
+}
