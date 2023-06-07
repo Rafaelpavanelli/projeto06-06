@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rafaelpavanelli/projeto06-06.git/static/css/main.7c32aa15.css",
+    "main.js": "/Rafaelpavanelli/projeto06-06.git/static/js/main.34c4a81e.js",
+    "index.html": "/Rafaelpavanelli/projeto06-06.git/index.html",
+    "main.7c32aa15.css.map": "/Rafaelpavanelli/projeto06-06.git/static/css/main.7c32aa15.css.map",
+    "main.34c4a81e.js.map": "/Rafaelpavanelli/projeto06-06.git/static/js/main.34c4a81e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c32aa15.css",
+    "static/js/main.34c4a81e.js"
+  ]
+}
